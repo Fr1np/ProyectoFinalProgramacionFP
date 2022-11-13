@@ -58,7 +58,7 @@ class PelotaPong:
 
 class RaquetaPong:
     def __init__(self):
-        self.imagen = pygame.image.load('pong/raqueta.png').convert_alpha()
+        self.imagen = pygame.image.load('PongImagenes/pelota_rojo.png').convert_alpha()
 
         # -- Atributos de la Clase --
 
@@ -118,7 +118,7 @@ def main():
     # Inicialización de la fuente
     fuente = pygame.font.Font(None, 60)
 
-    pelota = PelotaPong('pong/pelota_rojo.png')
+    pelota = PelotaPong('PongImagenes/pelota_rojo.png')
 
     raqueta_1 = RaquetaPong()
     raqueta_1.x = 60
