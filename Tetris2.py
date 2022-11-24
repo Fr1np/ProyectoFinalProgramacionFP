@@ -106,7 +106,7 @@ while True:
     for i in range(4):
         figure_rect.x = figure[i].x * TILE
         figure_rect.y = figure[i].y * TILE
-        pygame.draw.rect(game_sc, pygame.Color('white'), figure_rect)
+        pygame.draw.rect(game_sc, pygame.Color((255, 0, 0)), figure_rect)
     # draw field
     for y, raw in enumerate(field):
         for x, col in enumerate(raw):
