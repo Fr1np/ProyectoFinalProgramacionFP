@@ -30,7 +30,7 @@ field = tk.Text(window, height=2, width=21, font=("Times New Roman", 20))
 field.grid(row=1, column=1, columnspan=4)
 
 ########################################################################
-                        # Number Buttons #
+                        # Botones Numeros #
 ########################################################################
 
 btn_1 = tk.Button(window, text="1", command=lambda: add_to_field(1), width=5, font=("Times New Roman", 14))
@@ -64,7 +64,7 @@ btn_0 = tk.Button(window, text="0", command=lambda: add_to_field(0), width=5, fo
 btn_0.grid(row=5, column=1)
 
 ########################################################################
-                        # Operation Buttons #
+                        # Botones Operaciones #
 ########################################################################
 
 btn_plus = tk.Button(window, text="+", command=lambda: add_to_field("+"), width=5, font=("Times New Roman", 14))
