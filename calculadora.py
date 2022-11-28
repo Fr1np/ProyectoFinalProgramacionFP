@@ -25,6 +25,7 @@ def clear():
 window = tk.Tk()
 window.title("Calculator")
 window.geometry("300x300")
+window.resizable(False, False)
 field = tk.Text(window, height=2, width=21, font=("Times New Roman", 20))
 field.grid(row=1, column=1, columnspan=4)
 
